@@ -1,4 +1,14 @@
 # WordTrojan
+
+> Malicious macro for the dummies<sup>*</sup>
+
+<sup>* In fact it is for me</sup>
+
+<div align=center>
+🔫 <strong>•</strong> 🥷 <strong>•</strong> 🫖
+</div> 
+
+
 Example of revershell macro in word document
 
 See https://vunnm.files.wordpress.com/2018/09/article_macro_reverse_shell.pdf
