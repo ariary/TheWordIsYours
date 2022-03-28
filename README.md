@@ -1,11 +1,15 @@
-# WordTrojan
+# The word is yours
 
-> Malicious macro for the dummies<sup>*</sup>
 
-<sup>* In fact it is for me</sup>
+
+
 
 <div align=center>
-🔫 <strong>•</strong> 🥷 <strong>•</strong> 🫖
+<img src=https://github.com/ariary/WordTrojan/blob/main/img/logo.png width=180>
+<br><strong><i>Malicious macro for the dummies<sup>*</sup></i></strong>
+<br><sup>* In fact it is for me</sup> 
+
+  🔫 <strong>•</strong> 🥷 <strong>•</strong> 🫖
 </div> 
 
 
