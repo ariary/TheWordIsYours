@@ -24,7 +24,7 @@ We suppose the victim is using Windows.
 ### What we want to do?
 
 To discover a bit the macro world. Our aim is to steal credentials stored in the Chrome password manager. The scenario is the following:
-* Transfer malicious word document to victim *(out-of-scope: use social-engineering,phishing, ..)
+* Transfer malicious word document to victim *(out-of-scope: use social-engineering,phishing, ..)*
 * Encourage them to open it + enable macro
   * The macro will retrieve the files containing credentials, then send them to C2 server
 * On C2 server we will decrypt the credentials
