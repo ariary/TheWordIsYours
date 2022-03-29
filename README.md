@@ -120,7 +120,7 @@ Let's copy your ngrok https endpoint and replace `[ATTACKER_URL]` in the macro
 
 Now open the word document (on a windows machine please) and **bang**, see that it has discreetly exfiltrated the documents on your attacking machine.
 
-Now that we have what we want, proceed to password decryption on attacker machine (which is the cool part)
+Now that we have what we want, proceed to password decryption on attacker machine (which is the coolest part)
 
 *.. to do*
 
