@@ -133,7 +133,7 @@ Now that we have what we want, proceed to password decryption on attacker machin
 *.. to do*
 ### Encrypt payload
 ### Hide keys
-### Enhance target to enable macros
+### Encourage target to enable macros
 
 <!--Example of revershell macro in word document
 
